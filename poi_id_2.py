@@ -60,7 +60,7 @@ def main():
 	data_dict.pop('TOTAL',0)
 
 	#check how many features have missing values
-	# check_missing_values(data_dict)
+	## check_missing_values(data_dict)
 
 	### Task 3: Create new feature(s)
 	### Store to my_dataset for easy export below.
