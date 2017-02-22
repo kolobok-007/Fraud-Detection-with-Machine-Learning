@@ -6,3 +6,7 @@ A set of fucntions that pick the best classifier model for determing POIs from E
 \data\ folder contains supplementary data
 
 classifier_selection.py contains code for feautre selection, feature scaling, classifier selection, paramter tuning and evalution of performance.
+
+tester.py function for testing classifier
+
+.pkl are pickled files that contain classifier, dataset and feature_list
