@@ -1,12 +1,14 @@
-# Fraud-Detection-with-Machine-Learning
-A set of fucntions that pick the best classifier model for determing POIs from Enron legal case. The data used to train and test is based on email and financial data.
+# Description
 
-\tools\ folder contains function to prepare the data
+This repository contains code for building a classifier model for determing persons of intrest (POIs) from [Enron scandal](https://en.wikipedia.org/wiki/Enron_scandal) legal case. The data used to train and test is based on email and financial data.
 
-\data\ folder contains supplementary data
+# Files
+`tools/` contains function to prepare the data
 
-classifier_selection.py contains code for feautre selection, feature scaling, classifier selection, paramter tuning and evalution of performance.
+`data/` contains supplementary data
 
-tester.py function for testing classifier
+`classifier_selection.py` contains code for feautre selection, feature scaling, classifier selection, paramter tuning and evalution of performance.
 
-.pkl are pickled files that contain classifier, dataset and feature_list
+`tester.py` function for testing classifier
+
+`.pkl` files are pickled files that contain classifier, dataset and feature_list
